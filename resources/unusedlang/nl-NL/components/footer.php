@@ -1,0 +1,27 @@
+<?php
+
+return [
+  'contact' => 'CONTACT',
+  'address' => 'Nederland',
+  'phone' => '010-3075864',
+  'courses' => 'CURSUSSEN',
+  'group_courses' => 'Groepscursussen',
+  'ielts_courses' => 'IELTS-cursus',
+  'private_lessons' => 'Privélessen',
+  'corporate_lessons' => 'Bedrijfscursus',
+  'about' => 'OVER ONS',
+  'blog' => 'Ons blog',
+    'learn_english' => 'Engels leren',
+    'english_courses' => 'Engelse cursussen',
+    'ielts_courses_2' => 'Cursussen IELTS',
+  'our_teachers' => 'Ons docenten',
+    'learn' => 'LEREN',
+    'learn_english_online' => 'Online Engels leren',
+    'online_english_courses' => 'Online cursussen Engels',
+  'privacy' => 'Privacybeleid',
+  'general_terms' => 'Algemene voorwaarden',
+  'locations' => 'LOCATIE',
+  'rotterdam' => 'Rotterdam',
+  'all_rights_reserved' => 'Alle rechten voorbehouden',
+  'reviews' => 'Recensies',
+];

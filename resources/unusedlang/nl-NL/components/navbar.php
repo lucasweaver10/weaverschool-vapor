@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'languages' => 'Taalen',
+    'subjects' => 'Onderwerpen',
+    'english' => 'Engels',
+    'dutch' => 'Nederlands',
+    'english_courses' => 'Cursus Engels',
+    'dutch_courses' => 'Cursus Nederlands',
+    'online_courses' => 'Online cursussen',
+    'in_person_courses' => 'Persoonlijke cursussen',
+    'private_lessons' => 'Privélessen',
+    'ielts_prep' => 'IELTS-examenvoorbereiding',
+    'corporate_lessons' => 'Zakelijke lessen',
+    'courses' => 'Cursussen',
+    'about' => 'Over',
+    'teachers' => 'Docenten',
+    'about_link' => '/nl-NL/about',
+    'pricing' => 'Prijzen',
+    'pricing_link' => '/nl-NL/pricing',
+    'blog' => 'Blog',
+    'login' => 'Inloggen',
+    'logout' => 'Logout',
+    'register' => 'Creëer account',
+    'contact' => 'Contact',
+    'contact_link' => '/nl-NL/contact',
+];

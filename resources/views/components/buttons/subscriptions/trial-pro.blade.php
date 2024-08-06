@@ -1,0 +1,1 @@
+<a target="_blank" href="{{ route('dashboard.subscriptions.trials.create', ['locale' => session('locale', 'en'), 'type' => 'pro', 'id' => '5001']) }}" class="{{ $class }}">{{ $text }}</a>

@@ -1,0 +1,8 @@
+id: 62505
+name: Weaver-School
+environments:
+    production:
+        runtime: docker
+        dockerfile: production.Dockerfile              
+        build:
+            - 'composer install --no-dev'             
