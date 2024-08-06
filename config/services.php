@@ -12,12 +12,7 @@ return [
     | location for this type of information, allowing packages to have
     | a conventional file to locate the various service credentials.
     |
-    */
-    'mailgun' => [
-        'domain' => env('mail.weaverenglish.nl-NL'),
-        'secret' => env('48504bffa048bd953e0731f0c775398c-09001d55-d7f51845'),
-        'endpoint' => 'api.eu.mailgun.net',
-    ],
+    */    
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],

@@ -293,7 +293,7 @@ Route::middleware(['localization'])->group(
 Route::get('/create-payment-intent', function () {
 //    Stripe::setApiKey(env('STRIPE_SECRET'));
 
-    $stripe = new \Stripe\StripeClient('sk_test_51NPbmMGU36zs4gOvpK75qwDeKMXnk8glZPig5AmaZwUyECpMBgX9Y2P8bmykdXgXolJJNcxjNBwACix7LQ7FE6jF00bYJJSjPe');
+    $stripe = new \Stripe\StripeClient(config('services.stripe_secret'));
     $paymentIntent = $stripe->paymentIntents->create([
         'amount' => 1000,
         'currency' => 'usd',
